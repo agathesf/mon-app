@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import TryHard from './components/test';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log("done")
 root.render(
   <React.StrictMode>
     <App />
+    <TryHard />
   </React.StrictMode>
 );
 
